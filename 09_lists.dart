@@ -37,11 +37,12 @@ void main(){
 }
 
 /*
-   List l = [1, 2, 3,4,10,6,7,8,9]; 
+   List l = [1, 2,'third',4,10,6,7,8,9]; 
    print('The value of list before removing the list element ${l}'); 
 
-   // removes given number from the list and stores true or false in bool
-   bool res = l.remove(10); 
+   // removes given element from the list and stores true or false in bool
+   bool res = l.remove(10);
+   bool check = l.remove('third');
    print('The value of list after removing the list element ${l}'); 
 */
 
