@@ -25,6 +25,9 @@ void main(){
   //remove At index
   l1.removeAt(3);
 
+  //removing a range 
+  l1.removeRange(2,5);
+
   //In Dart, when a variable is declared as a dynamic type, it can store any value, such as int and float . 
   //The value of a dynamic variable can change over time within the program.
 
