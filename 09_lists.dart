@@ -24,7 +24,28 @@ void main(){
   
   //remove At index
   l1.removeAt(3);
-  
+
+  //In Dart, when a variable is declared as a dynamic type, it can store any value, such as int and float . 
+  //The value of a dynamic variable can change over time within the program.
+
+   dynamic last = l1.removeLast();
+  //OR
+   var last = l1.removeLast();
+
   print(l1);
+
 }
+
+/*
+   List l = [1, 2, 3,4,10,6,7,8,9]; 
+   print('The value of list before removing the list element ${l}'); 
+
+   // removes given number from the list and stores true or false in bool
+   bool res = l.remove(10); 
+   print('The value of list after removing the list element ${l}'); 
+*/
+
+  
+
+
 
