@@ -4,7 +4,7 @@ void main(){
   // add 1 element at the end
   l1.add('any text or int');
 
-  // add mutilple elements at the end
+  // add multiple elements at the end
   l1.addAll(['multiple_elements',72,55,'other']);
 
   // insert element at a position
