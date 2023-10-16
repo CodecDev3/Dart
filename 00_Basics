@@ -1,5 +1,5 @@
 In Dart, when a variable is declared as a var type, it can hold any value such as int and float. The value of a var variable can not change within the program once it is initialised at declaration.
-..
+
 
 The final keyword is used to hardcode the values of the variable and it cannot be altered in future, neither any kind of operations performed on these variables can alter its value (state).
 
