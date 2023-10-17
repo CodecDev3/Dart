@@ -9,7 +9,7 @@ The print() statement brings the cursor to next line while stdout.write() don’
 
 In Dart, when a variable is declared as a dynamic type, it can store any value, such as int and float . The value of a dynamic variable can change over time within the program.
 
-
+https://www.tutorialspoint.com/dart_programming/dart_programming_operators.htm
 ~/
 Divide, returning an integer result
 
