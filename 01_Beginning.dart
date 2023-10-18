@@ -5,9 +5,16 @@ void main() {
 
 	print("This is my first application");
 
-	// Performing arithematic operation
-	print(12 / 4);
-
-	// Printing out boolean value
-	print(false);
+	  int a = 15;
+	  int b = 25;
+	  
+	  print (a<b);   // true
+	  
+	  print(a/b);   // 0.6 Normal divide (double value)
+	  
+	  print(a~/b);  // 0 Divide, returning an integer result
+	  print(b~/a);  // 1 Divide, returning an integer result
+	  
+	  print(a%b);   // 15 remainder
+	  print(b%a);   // 10 remainder
 }
