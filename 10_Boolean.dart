@@ -20,7 +20,7 @@ void main(){
   double d = 78.55;
   print(d is! int);
 }
-OUTPUT: false
+OUTPUT: true
 
    String s = "ss";
   print(s.isEmpty); // returns bool value
