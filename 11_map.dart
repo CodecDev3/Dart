@@ -17,12 +17,12 @@ void main(){
 
    // displays key values
   print(details.keys);
+
+  // displays values
+  print(details.values);
   
   // bool check (returns bool)
   print(details.isNotEmpty);
-
-     // displays values
-  print(details.values);
 
  
 }
