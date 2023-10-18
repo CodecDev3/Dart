@@ -7,4 +7,13 @@ void main() {
 
 *****************************
 
+void main(){
+  var details = {'name':'deva','2':'two'};
+  print(details);
   
+  // adding element 
+  details['3'] = 'third';
+  print(details);
+  
+ 
+}
