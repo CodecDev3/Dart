@@ -46,7 +46,7 @@ void main(){
   print('Second Map : $n_map');
   
   // removing element
-  dynamic rem = n_map.remove('2');    // dynamic OR var
+  dynamic rem = n_map.remove('2');    // dynamic OR var      // OR only ~    n_map.remove('2');
   print('Removed : $rem');
   
   // clearing map
