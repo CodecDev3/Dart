@@ -34,3 +34,22 @@ void main(){
   print(test);    // true
   
 }
+
+
+*******************************
+void main(){
+   Map n_map = {'1':'first','2':'second'};
+  print('First Map : $n_map');
+  
+  // Adding elements
+  n_map.addAll({'3':'third added','4':'fourth added'});
+  print('Second Map : $n_map');
+  
+  // removing element
+  dynamic rem = n_map.remove('2');    // dynamic OR var
+  print('Removed : $rem');
+  
+  // clearing map
+  n_map.clear();
+  print(n_map);
+}
