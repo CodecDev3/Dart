@@ -14,15 +14,23 @@ void main(){
   // adding element 
   details['3'] = 'third';
   print(details);
-
-   // displays key values
-  print(details.keys);
-
+  
+  // displays key values
+  print(details.keys);    // (name, 2, 3)
+  
   // displays values
-  print(details.values);
+  print(details.values);    // (deva, two, third)
+  
+  // length
+  print(details.length);    // 3
+  
+   // bool check (returns bool)
+  print(details.isEmpty);   // false
   
   // bool check (returns bool)
-  print(details.isNotEmpty);
-
- 
+  print(details.isNotEmpty);  // true
+  
+  bool test = details.isNotEmpty; 
+  print(test);    // true
+  
 }
