@@ -21,5 +21,8 @@ void main(){
   // bool check (returns bool)
   print(details.isNotEmpty);
 
+     // displays values
+  print(details.values);
+
  
 }
