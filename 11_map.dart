@@ -14,6 +14,12 @@ void main(){
   // adding element 
   details['3'] = 'third';
   print(details);
+
+   // displays key values
+  print(details.keys);
   
+  // bool check (returns bool)
+  print(details.isNotEmpty);
+
  
 }
