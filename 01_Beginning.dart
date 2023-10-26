@@ -17,4 +17,10 @@ void main() {
 	  
 	  print(a%b);   // 15 remainder
 	  print(b%a);   // 10 remainder
+
+	var txt = StringBuffer();
+		txt.write('And all the men and women ');
+		txt.write('merely players; ...');
+	  	print(moreShakespeare);
+
 }
