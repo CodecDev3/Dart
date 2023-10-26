@@ -19,8 +19,10 @@ void main() {
 	  print(b%a);   // 10 remainder
 
 	var txt = StringBuffer();
+	String aa = 'other string';
 		txt.write('And all the men and women ');
 		txt.write('merely players; ...');
-	  	print(moreShakespeare);
+	  	txt.write(aa);
+	  	print(txt);
 
 }
