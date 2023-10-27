@@ -32,4 +32,3 @@ OUTPUT: true
   print(s.isEmpty); // returns bool value
  print(s.isNotEmpty); // returns bool value
 
-}
