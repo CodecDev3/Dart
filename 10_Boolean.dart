@@ -4,6 +4,12 @@ void main(){
   print(test);
 }
 
+void main(){
+  int a = 5, b = 10;
+  print(b<a);
+}
+OUTPUT: false
+
 ***********************
 
  Operator	Meaning
