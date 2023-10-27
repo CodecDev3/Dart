@@ -21,6 +21,7 @@ void main() {
 		case 'F':
 			print("You have failed");
 			break;
+			
 		default:
 			print("Invalid Grade");
 	}
