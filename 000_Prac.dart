@@ -8,7 +8,7 @@ void main(){
   
   for(int i = 0; i <= 5; i++){
     a++;
-    list.insert(i,'${a}');
+    list.insert(i,'${a}');        // or list.insert(i,a);
   }
   
   print(list);
