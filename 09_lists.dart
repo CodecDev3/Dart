@@ -26,7 +26,7 @@ void main(){
   //updating list
   l1[1] = 50;
   
-  //updating multiple elements (replace)
+  //updating multiple elements (replace 2,3,4)
   l1.replaceRange(2,5,['3rd','4th','5th']);
   
   //removing last element
