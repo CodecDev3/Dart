@@ -5,7 +5,7 @@ void main() {
 //int
     print("Enter Num: ");
     String ss = stdin.readLineSync()!;
-    int num = int.parse(ss);
+    int num = int.parse(ss);                // int? num = int.tryParse(stdin.readLineSync()!);        if value is not parseble, tryParse returns null (that is num = null)
     print("${num + 100}");
     
 //Double
