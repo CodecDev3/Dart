@@ -1,0 +1,38 @@
+import 'dart:io';
+
+void main(){
+
+  print('Enter two num: ');
+  //String sx = stdin.readLineSync()!;
+  int x = int.parse(stdin.readLineSync()!);
+  //String sy = stdin.readLineSync()!;
+  int y = int.parse(stdin.readLineSync()!);
+
+  print('Enter the operation (+, -, *, /): ');
+  String operation = stdin.readLineSync()!;
+
+  switch(operation){
+      case '+': add(x,y); break;
+      case '-': sub(x,y); break;
+      case '*': mul(x,y); break;
+      case '/': div(x,y); break;
+      default: print(" Default ");
+  }
+
+}
+
+add(int a, int b){
+  print("${a + b}");
+}
+
+sub(int a, int b){
+   print("${a - b}");
+}
+
+mul(int a, int b){
+   print("${a * b}");
+}
+
+div(int a, int b){
+   print("Quotient: ${a ~/ b}\nRemainder: ${a % b}\nFinal: ${a / b}"); // quotient 
+}
