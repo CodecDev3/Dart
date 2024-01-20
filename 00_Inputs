@@ -3,11 +3,18 @@ import 'dart:io';
 void main() {
 
 //int
+    //direct int
+    int num = int.parse(stdin.readLineSync()!);
+    print("$num");
+
+    // parsing to int 
     print("Enter Num: ");
     String ss = stdin.readLineSync()!;
     int num = int.parse(ss);                // int? num = int.tryParse(stdin.readLineSync()!);        if value is not parseble, tryParse returns null (that is num = null)
     print("${num + 100}");
+
     
+
 //Double
     print("\nEnter Decimal Num: ");
     double dd = double.parse(stdin.readLineSync()!);
