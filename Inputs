@@ -1,0 +1,20 @@
+import 'dart:io';
+
+void main() {
+
+//int
+    print("Enter Num: ");
+    String ss = stdin.readLineSync()!;
+    int num = int.parse(ss);
+    print("${num + 100}");
+    
+//Double
+    print("\nEnter Decimal Num: ");
+    double dd = double.parse(stdin.readLineSync()!);
+    print("$dd");
+
+//String
+    print("\nEnter Text: ");
+    String txt = stdin.readLineSync()!;
+    print("$txt");
+}
