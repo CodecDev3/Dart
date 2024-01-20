@@ -17,7 +17,7 @@ void main(){
   // add multiple elements at the end
   l1.addAll(['multiple_elements',72,55,'other']);
 
-  // insert element at a position
+  // insert element at a position (not replace)
   l1.insert(2,'inserted at third position(2)');
 
   // insert multiple elements after a position
